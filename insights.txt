@@ -1,0 +1,105 @@
+NETFLIX CONTENT ANALYSIS — KEY INSIGHTS
+========================================
+
+Dataset:
+The dataset contains 8,807 Netflix titles, including 6,131 Movies
+and 2,676 TV Shows.
+
+1. MOVIES VS TV SHOWS
+---------------------
+Movies make up approximately 69.6% of the Netflix catalog, while TV
+Shows account for approximately 30.4%. This shows that the catalog
+is significantly more movie-focused than TV-show-focused.
+
+2. TOP COUNTRIES
+----------------
+The United States is the largest contributor to the Netflix catalog
+by a significant margin, followed by India and the United Kingdom.
+This indicates a strong concentration of content from the US market,
+while India is also a major contributor.
+
+Note: Some country values contain multiple countries in the same
+cell, such as "United States, India", so these results represent
+country entries rather than perfectly separated country counts.
+
+3. TOP DIRECTORS
+----------------
+Rajiv Chilaka has the highest number of titles in the director
+analysis, followed by "Raul Campos, Jan Suter" and Suhas Kadav.
+This shows that a relatively small group of directors account for
+a large number of titles in the dataset.
+
+Note: Some rows contain multiple directors in a single cell, so
+the analysis counts director entries rather than individually
+separating every director.
+
+4. TOP GENRES
+-------------
+Drama is one of the most heavily represented genres in the Netflix
+catalog, along with International Movies and Comedies. The catalog
+therefore has a strong presence of drama, comedy, and international
+content.
+
+Multiple genres were separated using split() and explode() before
+counting them individually.
+
+5. CONTENT ADDED BY MONTH
+-------------------------
+July has the highest number of Netflix titles added among the months
+in the dataset. Content additions are therefore not evenly
+distributed throughout the year.
+
+6. CONTENT BY RELEASE YEAR
+--------------------------
+Netflix's catalog is heavily concentrated around more recent
+content, with the late 2010s showing particularly high numbers of
+titles. This suggests that the catalog has a strong emphasis on
+modern releases rather than older content.
+
+7. MOVIES VS TV SHOWS OVER TIME
+-------------------------------
+Movies remain the dominant content type overall, but TV Shows show
+strong growth in the later years. This indicates that Netflix has
+increasingly expanded its TV content alongside its movie catalog.
+
+8. CONTENT RATINGS
+------------------
+TV-MA and TV-14 are among the most common ratings in the dataset.
+This indicates that a large portion of Netflix's catalog is intended
+for mature or teenage audiences.
+
+9. NETFLIX CONTENT ACQUISITION
+------------------------------
+Netflix's content additions increased substantially during the late
+2010s compared with earlier years in the dataset. This indicates a
+major period of catalog expansion during that period.
+
+This analysis uses date_added, which represents when Netflix added
+the title, rather than when the title was originally released.
+
+10. MOVIE DURATION
+------------------
+Most Netflix movies are concentrated around the 90–120 minute range,
+with the average movie duration being around 100 minutes. This
+suggests that the catalog largely follows conventional feature-film
+runtime patterns.
+
+11. TV SHOW SEASONS
+------------------
+Most TV Shows in the dataset have relatively few seasons, with
+1–2-season shows making up a large portion of the catalog. This
+suggests that Netflix's TV catalog contains many relatively
+short-running series rather than being dominated by long-running
+shows.
+
+OVERALL CONCLUSION
+------------------
+Netflix's catalog is predominantly movie-focused and heavily
+weighted toward recent content. The United States is the largest
+content contributor, while India is another major contributor.
+Drama, comedy, and international content are strongly represented.
+Although Movies remain dominant, TV Shows have grown considerably
+over time. Netflix also experienced a major period of content
+expansion during the late 2010s, while most movies follow
+conventional feature-length runtimes and most TV Shows have
+relatively few seasons.
