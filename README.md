@@ -68,8 +68,8 @@ netflix-content-analysis/
 
 ### Dashboard Overview
 
-![Dashboard](C:\Users\shrey\OneDrive\Pictures\Screenshots\Screenshot 2026-08-17 215748.png)
+![Dashboard](Images/Dashboard.png)
 
 ### Interactive Filtering
 
-![Filters](images/dashboard_filter.png)
+![Filters](Images/Filtering.png)
