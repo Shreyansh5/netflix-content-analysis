@@ -1,14 +1,11 @@
 # Netflix Content Analysis
 
 An exploratory data analysis of 8,807 Netflix titles using Python,
-Pandas, Seaborn, Matplotlib, and MySQL.
+Pandas, Seaborn, Matplotlib, MySQL and Power BI.
 
 ## Objective
 
-The goal of this project was to explore Netflix's content catalog
-and identify patterns in content types, countries, genres, ratings,
-release years, content acquisition, movie durations, and TV show
-seasons.
+This project analyzes Netflix's content library using Python, SQL, and Power BI. The dataset contains 8,807 Netflix titles, and the project explores content distribution, trends, ratings, genres, countries, and release patterns through exploratory data analysis and interactive dashboards.
 
 ## Tools Used
 
@@ -17,6 +14,7 @@ seasons.
 - Seaborn
 - Matplotlib
 - MySQL
+- Power BI
 
 ## Analysis
 
@@ -48,8 +46,7 @@ The project answers the following questions:
 
 ## Project Structure
 
-```text
-netflix_project/
+netflix-content-analysis/
 │
 ├── data/
 │   └── netflix_titles.csv
@@ -60,5 +57,19 @@ netflix_project/
 ├── sql/
 │   └── netflix_analysis.sql
 │
+├── powerbi/
+│   └── Netflix_Data_Dashboard.pbix
+│
 ├── insights.txt
 └── README.md
+
+
+## Power BI Dashboard
+
+### Dashboard Overview
+
+![Dashboard](C:\Users\shrey\OneDrive\Pictures\Screenshots\Screenshot 2026-08-17 215748.png)
+
+### Interactive Filtering
+
+![Filters](images/dashboard_filter.png)
